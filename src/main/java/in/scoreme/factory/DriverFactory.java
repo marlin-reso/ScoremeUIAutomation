@@ -18,8 +18,8 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
-import com.opencart.errors.AppError;
-import com.opencart.exceptions.BrowserException;
+import in.scoreme.*;
+import in.scoreme.exceptions.BrowserException;
 import com.opencart.exceptions.FrameworkException;
 import com.opencart.factory.OptionsManager;
 import com.opencart.logger.Log;
