@@ -20,9 +20,9 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import in.scoreme.*;
 import in.scoreme.exceptions.BrowserException;
-import com.opencart.exceptions.FrameworkException;
-import com.opencart.factory.OptionsManager;
-import com.opencart.logger.Log;
+import in.scoreme.exceptions.FrameworkException;
+import in.scoreme.factory.OptionsManager;
+import in.scoreme.logger.Log;
 
 public class DriverFactory {
 	
