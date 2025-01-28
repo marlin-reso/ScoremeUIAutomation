@@ -51,7 +51,8 @@ public class DriverFactory {
 			// but we can not achieve cross browser testing via this approach
 			// String browserName = System.getProperty("browser");
 
-			System.out.println("Browser name is : " + browserName);
+			
+Log.info("Browser name is : " + browserName.);
 
 			optionsManager = new OptionsManager(prop);
 
@@ -92,17 +93,7 @@ public class DriverFactory {
 				}
 
 				break;
-			case "safari":
-
-				tlDriver.set(new SafariDriver());
-
-				break;
-
-			default:
-
-				Log.error("Pass the right browser " + browserName);
-				throw new BrowserException("No Browser found : " + browserName);
-
+		
 			}
 
 			// driver.manage().deleteAllCookies();
@@ -208,7 +199,8 @@ public class DriverFactory {
 		 */
 		private void init_remoteDriver(String browserName) {
 
-			System.out.println("Running tests on Remote GRID on browser : " + browserName);
+
+Log.info("Running tests on Remote GRID on browser : " + browserName)
 
 			try {
 				switch (browserName.toLowerCase().trim()) {
